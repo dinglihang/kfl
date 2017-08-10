@@ -1,0 +1,35 @@
+
+<div ng-include="'tpl/include/header.html'"></div>
+
+<ion-content class="has-header has-footer">
+
+  <h1 class="text-center">我的订单</h1>
+
+  <!-- 通过grid来模拟一个table-->
+  <!-- 模拟thead-->
+  <div class="row">
+    <div class="col">订单编号</div>
+    <div class="col">菜品</div>
+    <div class="col">下单时间</div>
+    <div class="col">联系人</div>
+  </div>
+  <hr/>
+  <!-- 模拟tbody-->
+  <div class="row row-center">
+    <div class="col">1</div>
+    <div class="col">
+      <a href="#/kflDetail">
+        <img class="img-responsive"
+             src="img/p0281.jpg" alt=""/>
+      </a>
+    </div>
+    <div class="col">
+      2011-11-11
+    </div>
+    <div class="col">
+      zhangsan
+    </div>
+  </div>
+</ion-content>
+
+<div ng-include="'tpl/include/footer.html'"></div>
